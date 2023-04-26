@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" id="register-form">
+        <h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+        <div id="register">
+            <div id="properties">
+                <p>Họ và tên</p>
+                <p>Mật khẩu</p>
+                <p>Xác nhận mật khẩu</p>
+                <p>Ngày tháng năm sinh</p>
+                <p>Số điện thoại</p>
+                <p>Sở thích</p>
+            </div>
+            <div id="input">
+                <input type="text" id="name" placeholder="Nhập họ và tên">
+                <span class="error-message" id="err_name"></span>
+                <input type="password" id="pass" placeholder="Nhập mật khẩu" required>
+                <span class="error-message" id="err_pass"></span>
+                <input type="password" id="confirm" placeholder="Nhập lại mật khẩu">
+                <span class="error-message" id="err_confirm"></span>
+                <input type="date" id="date" required>
+                <input type="text" id="phone" placeholder="Nhập số điện thoại">
+                <span class="error-message" id="err_phone"></span>
+                <textarea id="habits" cols="30" rows="10">Sở thích của bạn</textarea>
+                <input type="submit" onclick="validateForm()" placeholder="Đăng Kí">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    font-size: 25px;
+}
+
+#properties{
+    width: 30%;
+    text-align: left;
+}
+#input{
+    width: 70%;
+    text-align: left;
+}
+.error-message {
+    color: red;
+    font-size: 25px;
+}
+input{
+    font-size: 20px;
+    width: 50%;
+    margin-top: 5%;
+}
+textarea{
+    width: 50%;
+    max-height: 10%;
+    margin-top: 5%;
+}
+#register{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
